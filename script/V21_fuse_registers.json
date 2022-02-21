@@ -1,0 +1,665 @@
+
+{
+	"EPRXLOCKFILTER_lpGBT1":
+	{
+		"reg": "EPRXLOCKFILTER",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0xf0",
+		"reg_addr": "0x0f2",
+		"reg_data": [
+			{"name": "EPRXLockThreshold", "value" : 5, "size": 4},
+			{"name": "EPRXReLockThreshold", "value" : 5, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGConfig0_lpGBT1":
+	{
+		"reg": "CLKGConfig0",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x020",
+		"reg_addr": "0x020",
+		"reg_data": [
+			{"name": "EPRXLockThreshold", "value" : 12, "size": 4},
+			{"name": "EPRXReLockThreshold", "value" : 8, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGConfig1_lpGBT1":
+	{
+		"reg": "CLKGConfig1",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x020",
+		"reg_addr": "0x021",
+		"reg_data": [
+			{"name": "CDRControlOverrideEnable", "value" : 0, "size": 1},
+			{"name": "CLKGDisableFrameAlignerLockControl", "value" : 0, "size": 1},
+			{"name": "CLKGCDRRes", "value" : 1, "size": 1},
+			{"name": "CLKGVcoRailMode", "value" : 1, "size": 1},
+			{"name": "CLKGVcoDAC", "value" : 8, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGPllRes_lpGBT1":
+	{
+		"reg": "CLKGPllRes",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x020",
+		"reg_addr": "0x022",
+		"reg_data": [
+			{"name": "CLKGPllResWhenLocked", "value" : 0, "size": 4},
+			{"name": "CLKGPllRes", "value" : 0, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGPLLIntCur_lpGBT1":
+	{
+		"reg": "CLKGPLLIntCur",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x020",
+		"reg_addr": "0x023",
+		"reg_data": [
+			{"name": "CLKGPLLIntCurWhenLocked", "value" : 5, "size": 4},
+			{"name": "CLKGPLLIntCur", "value" : 5, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGPLLPropCur_lpGBT1":
+	{
+		"reg": "CLKGPLLPropCur",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x024",
+		"reg_addr": "0x024",
+		"reg_data": [
+			{"name": "CLKGPLLPropCurWhenLocked", "value" : 5, "size": 4},
+			{"name": "CLKGPLLPropCur", "value" : 5, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGCDRPropCur_lpGBT1":
+	{
+		"reg": "CLKGCDRPropCur",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x024",
+		"reg_addr": "0x025",
+		"reg_data": [
+			{"name": "CLKGCDRPropCurWhenLocked", "value" : 5, "size": 4},
+			{"name": "CLKGCDRPropCur", "value" : 5, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGCDRIntCur_lpGBT1":
+	{
+		"reg": "CLKGCDRIntCur",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x024",
+		"reg_addr": "0x026",
+		"reg_data": [
+			{"name": "CLKGCDRIntCurWhenLocked", "value" : 5, "size": 4},
+			{"name": "CLKGCDRIntCur", "value" : 5, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGCDRFFPropCur_lpGBT1":
+	{
+		"reg": "CLKGCDRFFPropCur",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x024",
+		"reg_addr": "0x027",
+		"reg_data": [
+			{"name": "CLKGCDRFeedForwardPropCurWhenLocked", "value" : 5, "size": 4},
+			{"name": "CLKGCDRFeedForwardPropCur", "value" : 5, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGFLLIntCur_lpGBT1":
+	{
+		"reg": "CLKGFLLIntCur",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x028",
+		"reg_addr": "0x028",
+		"reg_data": [
+			{"name": "CLKGFLLIntCurWhenLocked", "value" : 0, "size": 4},
+			{"name": "CLKGFLLIntCur", "value" : 15, "size": 4}],
+		"reg_wr": "wr"
+	},
+	"CLKGWaitTime_lpGBT1":
+	{
+		"reg": "CLKGWaitTime",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x02c",
+		"reg_addr": "0x02c",
+		"reg_data": [
+			{"name": "CLKGwaitCDRTime", "value" : 8, "size": 4},
+			{"name": "CLKGwaitPLLTime", "value" : 8, "size": 4}],
+		"reg_wr": "wr"
+	},
+
+	"FAMaxHeaderFoundCount_lpGBT1":
+	{
+		"reg": "FAMaxHeaderFoundCount",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x02c",
+		"reg_addr": "0x02f",
+		"reg_data": "0x0A",
+		"reg_wr": "wr"
+	},
+	"FAMaxHeaderFoundCountAfterNF_lpGBT1":
+	{
+		"reg": "FAMaxHeaderFoundCountAfterNF",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x030",
+		"reg_addr": "0x030",
+		"reg_data": "0x1A",
+		"reg_wr": "wr"
+	},
+	"FAMaxHeaderNotFoundCount_lpGBT1":
+	{
+		"reg": "FAMaxHeaderNotFoundCount",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x030",
+		"reg_addr": "0x031",
+		"reg_data": "0x2A",
+		"reg_wr": "wr"
+	},
+
+	"PSDllConfig_lpGBT1":
+	{
+		"reg": "PSDllConfig",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x030",
+		"reg_addr": "0x033",
+		"reg_data": [
+			{"name": "EPRXUnLockThreshold", "value" : 5, "size": 4},
+			{"name": "PSDLLConfirmCount", "value" : 1, "size": 2},
+			{"name": "PSDllCurrentSel", "value" : 1, "size": 2}],
+		"reg_wr": "wr"
+	},
+
+	"EPRXDllConfig_lpGBT1":
+	{
+		"reg": "EPRXDllConfig",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0f0",
+		"reg_addr": "0x0f1",
+		"reg_data": [
+			{"name": "EPRXDllCurrent", "value" : 1, "size": 2},
+			{"name": "EPRXDLLConfirmCount", "value" : 1, "size": 2},
+			{"name": "EPRXDLLFSMClkAlwaysOn", "value" : 0, "size": 1},
+			{"name": "EPRXDLLCoarseLockDetection", "value" : 1, "size": 1},
+			{"name": "EPRXEnableReInit", "value" : 0, "size": 1},
+			{"name": "EPRXDataGatingEnable", "value" : 1, "size": 1}],
+		"reg_wr": "wr"
+	},
+
+	"EQConfig_lpGBT1":
+	{
+		"reg": "EQConfig",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x034",
+		"reg_addr": "0x037",
+		"reg_data": [
+			{"name": "NC", "value" : 0, "size": 3},
+			{"name": "EQAttenuation", "value" : 3, "size": 2},
+			{"name": "NC", "value" : 0, "size": 1},
+			{"name": "EQCap", "value" : 0, "size": 2}],
+		"reg_wr": "wr"
+	},
+
+	"LDConfigH_lpGBT1":
+	{
+		"reg": "LDConfigH",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x038",
+		"reg_addr": "0x039",
+		"reg_data": "0x20",
+		"reg_wr": "wr"
+	},
+
+	"PIODirH_lpGBT1":
+	{
+		"reg": "PIODirH",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x050",
+		"reg_addr": "0x053",
+		"reg_data": [
+			{"name": "PIODir[15]", "value": 1, "size": 1},
+			{"name": "PIODir[14]", "value": 1, "size": 1},
+			{"name": "PIODir[13]", "value": 1, "size": 1},
+			{"name": "PIODir[12]", "value": 1, "size": 1},
+			{"name": "PIODir[11]", "value": 1, "size": 1},
+			{"name": "PIODir[10]", "value": 1, "size": 1},
+			{"name": "PIODir[9]", "value": 1, "size": 1},
+			{"name": "PIODir[8]", "value": 1, "size": 1}
+		],
+		"reg_wr": "wr"
+	},
+	"PIODirL_lpGBT1":
+	{
+		"reg": "PIODirL",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x054",
+		"reg_addr": "0x054",
+		"reg_data": [
+			{"name": "PIODir[7]", "value": 1, "size": 1},
+			{"name": "PIODir[6]", "value": 1, "size": 1},
+			{"name": "PIODir[5]", "value": 1, "size": 1},
+			{"name": "PIODir[4]", "value": 1, "size": 1},
+			{"name": "PIODir[3]", "value": 1, "size": 1},
+			{"name": "PIODir[2]", "value": 1, "size": 1},
+			{"name": "PIODir[1]", "value": 1, "size": 1},
+			{"name": "PIODir[0]", "value": 1, "size": 1}
+		],
+		"reg_wr": "wr"
+	},
+	"PIOOutH_lpGBT1":
+	{
+		"reg": "PIOOutH",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x054",
+		"reg_addr": "0x055",
+		"reg_data": [
+			{"name": "PIOOut[15]", "value": 0, "size": 1},
+			{"name": "PIOOut[14]", "value": 0, "size": 1},
+			{"name": "PIOOut[13]", "value": 0, "size": 1},
+			{"name": "PIOOut[12]", "value": 0, "size": 1},
+			{"name": "PIOOut[11]", "value": 0, "size": 1},
+			{"name": "PIOOut[10]", "value": 1, "size": 1},
+			{"name": "PIOOut[9]", "value": 0, "size": 1},
+			{"name": "PIOOut[8]", "value": 1, "size": 1}
+		],
+		"reg_wr": "wr"
+	},
+	"PIOOutL_lpGBT1":
+	{
+		"reg": "PIOOutL",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x054",
+		"reg_addr": "0x056",
+		"reg_data": [
+			{"name": "PIOOut[7]", "value": 0, "size": 1},
+			{"name": "PIOOut[6]", "value": 0, "size": 1},
+			{"name": "PIOOut[5]", "value": 0, "size": 1},
+			{"name": "PIOOut[4]", "value": 0, "size": 1},
+			{"name": "PIOOut[3]", "value": 1, "size": 1},
+			{"name": "PIOOut[2]", "value": 0, "size": 1},
+			{"name": "PIOOut[1]", "value": 0, "size": 1},
+			{"name": "PIOOut[0]", "value": 1, "size": 1}
+		],
+		"reg_wr": "wr"
+	},
+
+	"EPCLK5ChnCntrH_lpGBT1":
+	{
+		"reg": "EPCLK5ChnCntrH",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x078",
+		"reg_addr": "0x078",
+		"reg_data": [
+			{"name": "EPCLK5Invert", "value" : 0, "size": 2},
+			{"name": "EPCLK5DriveStrength", "value" : 7, "size": 3},
+			{"name": "EPCLK5Freq", "value" : 6, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPCLK5ChnCntrL_lpGBT1":
+	{
+		"reg": "EPCLK5ChnCntrL",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x078",
+		"reg_addr": "0x079",
+		"reg_data": [
+			{"name": "EPCLK5PreEmphasisStrength", "value" : 3, "size": 3},
+			{"name": "EPCLK5PreEmphasisMode", "value" : 3, "size": 2},
+			{"name": "EPCLK5PreEmphasisWidth", "value" : 0, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+
+	"EPTXDataRate_lpGBT1":
+	{
+		"reg": "EPTXDataRate",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0a8",
+		"reg_addr": "0x0a8",
+		"reg_data": [
+			{"name": "EPTX3DataRate", "value": 2, "size": 2},
+			{"name": "EPTX2DataRate", "value": 2, "size": 2},
+			{"name": "EPTX1DataRate", "value": 2, "size": 2},
+			{"name": "EPTX0DataRate", "value": 2, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+
+	"EPTX10Enable_lpGBT1":
+	{
+		"reg": "EPTX10Enable",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0a8",
+		"reg_addr": "0x0aa",
+		"reg_data": [
+			{"name": "EPTX13Enable", "value": 0, "size": 1},
+			{"name": "EPTX12Enable", "value": 1, "size": 1},
+			{"name": "EPTX11Enable", "value": 0, "size": 1},
+			{"name": "EPTX10Enable", "value": 1, "size": 1},
+			{"name": "EPTX03Enable", "value": 0, "size": 1},
+			{"name": "EPTX02Enable", "value": 1, "size": 1},
+			{"name": "EPTX01Enable", "value": 0, "size": 1},
+			{"name": "EPTX00Enable", "value": 1, "size": 1}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX32Enable_lpGBT1":
+	{
+		"reg": "EPTX32Enable",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0a8",
+		"reg_addr": "0x0ab",
+		"reg_data": [
+			{"name": "EPTX33Enable", "value": 0, "size": 1},
+			{"name": "EPTX32Enable", "value": 1, "size": 1},
+			{"name": "EPTX31Enable", "value": 0, "size": 1},
+			{"name": "EPTX30Enable", "value": 1, "size": 1},
+			{"name": "EPTX23Enable", "value": 0, "size": 1},
+			{"name": "EPTX22Enable", "value": 1, "size": 1},
+			{"name": "EPTX21Enable", "value": 0, "size": 1},
+			{"name": "EPTX20Enable", "value": 1, "size": 1}
+		],
+		"reg_wr": "wr"
+	},
+
+	"EPTX00ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX00ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0ac",
+		"reg_addr": "0x0ae",
+		"reg_data": [
+			{"name": "EPTX00PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX00PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX00DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX02ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX02ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0b0",
+		"reg_addr": "0x0b0",
+		"reg_data": [
+			{"name": "EPTX02PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX02PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX02DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX10ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX10ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0b0",
+		"reg_addr": "0x0b2",
+		"reg_data": [
+			{"name": "EPTX10PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX10PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX10DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX12ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX12ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0b4",
+		"reg_addr": "0x0b4",
+		"reg_data": [
+			{"name": "EPTX12PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX12PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX12DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX20ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX20ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0b4",
+		"reg_addr": "0x0b6",
+		"reg_data": [
+			{"name": "EPTX20PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX20PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX20DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX22ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX22ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0b8",
+		"reg_addr": "0x0b8",
+		"reg_data": [
+			{"name": "EPTX22PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX22PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX22DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX30ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX30ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0b8",
+		"reg_addr": "0x0ba",
+		"reg_data": [
+			{"name": "EPTX30PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX30PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX30DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+	"EPTX32ChnCntr_lpGBT1":
+	{
+		"reg": "EPTX32ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0bc",
+		"reg_addr": "0x0bc",
+		"reg_data": [
+			{"name": "EPTX32PreEmphasisStrength", "value": 7, "size": 3},
+			{"name": "EPTX32PreEmphasisMode", "value": 3, "size": 2},
+			{"name": "EPTX32DriveStrength", "value": 7, "size": 3}
+		],
+		"reg_wr": "wr"
+	},
+
+	"EPRX0Control_lpGBT1":
+	{
+		"reg": "EPRX0Control",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0c8",
+		"reg_addr": "0x0c8",
+		"reg_data": [
+			{"name": "EPRX03Enable", "value": 0, "size": 1},
+			{"name": "EPRX02Enable", "value": 0, "size": 1},
+			{"name": "EPRX01Enable", "value": 0, "size": 1},
+			{"name": "EPRX00Enable", "value": 1, "size": 1},
+			{"name": "EPRX0DataRate", "value": 3, "size": 2},
+			{"name": "EPRX0TrackMode", "value": 1, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+	"EPRX1Control_lpGBT1":
+	{
+		"reg": "EPRX1Control",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0c8",
+		"reg_addr": "0x0c9",
+		"reg_data": [
+			{"name": "EPRX13Enable", "value": 0, "size": 1},
+			{"name": "EPRX12Enable", "value": 0, "size": 1},
+			{"name": "EPRX11Enable", "value": 0, "size": 1},
+			{"name": "EPRX10Enable", "value": 1, "size": 1},
+			{"name": "EPRX1DataRate", "value": 3, "size": 2},
+			{"name": "EPRX1TrackMode", "value": 1, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+	"EPRX2Control_lpGBT1":
+	{
+		"reg": "EPRX2Control",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0c8",
+		"reg_addr": "0x0ca",
+		"reg_data": [
+			{"name": "EPRX23Enable", "value": 0, "size": 1},
+			{"name": "EPRX22Enable", "value": 0, "size": 1},
+			{"name": "EPRX21Enable", "value": 0, "size": 1},
+			{"name": "EPRX20Enable", "value": 1, "size": 1},
+			{"name": "EPRX2DataRate", "value": 3, "size": 2},
+			{"name": "EPRX2TrackMode", "value": 1, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+	"EPRX3Control_lpGBT1":
+	{
+		"reg": "EPRX3Control",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0c8",
+		"reg_addr": "0x0cb",
+		"reg_data": [
+			{"name": "EPRX33Enable", "value": 0, "size": 1},
+			{"name": "EPRX32Enable", "value": 0, "size": 1},
+			{"name": "EPRX31Enable", "value": 0, "size": 1},
+			{"name": "EPRX30Enable", "value": 1, "size": 1},
+			{"name": "EPRX3DataRate", "value": 3, "size": 2},
+			{"name": "EPRX3TrackMode", "value": 1, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+	"EPRX4Control_lpGBT1":
+	{
+		"reg": "EPRX4Control",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0cc",
+		"reg_addr": "0x0cc",
+		"reg_data": [
+			{"name": "EPRX43Enable", "value": 0, "size": 1},
+			{"name": "EPRX42Enable", "value": 0, "size": 1},
+			{"name": "EPRX41Enable", "value": 0, "size": 1},
+			{"name": "EPRX40Enable", "value": 1, "size": 1},
+			{"name": "EPRX4DataRate", "value": 3, "size": 2},
+			{"name": "EPRX4TrackMode", "value": 1, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+	"EPRX5Control_lpGBT1":
+	{
+		"reg": "EPRX5Control",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0cc",
+		"reg_addr": "0x0cd",
+		"reg_data": [
+			{"name": "EPRX53Enable", "value": 0, "size": 1},
+			{"name": "EPRX52Enable", "value": 0, "size": 1},
+			{"name": "EPRX51Enable", "value": 0, "size": 1},
+			{"name": "EPRX50Enable", "value": 1, "size": 1},
+			{"name": "EPRX5DataRate", "value": 3, "size": 2},
+			{"name": "EPRX5TrackMode", "value": 1, "size": 2}
+		],
+		"reg_wr": "wr"
+	},
+
+	"EPRX00ChnCntr_lpGBT1":
+	{
+		"reg": "EPRX00ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0d0",
+		"reg_addr": "0x0d0",
+		"reg_data": [
+			{"name": "EPRX00PhaseSelect", "value": 12, "size": 4},
+			{"name": "EPRX00Invert", "value": 1, "size": 1},
+			{"name": "EPRX00AcBias", "value": 0, "size": 1},
+			{"name": "EPRX00Term", "value": 1, "size": 1},
+			{"name": "EPRX00Eq1", "value": 0, "size": 1}
+			],
+		"reg_wr": "wr"
+	},
+	"EPRX10ChnCntr_lpGBT1":
+	{
+		"reg": "EPRX10ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0d4",
+		"reg_addr": "0x0d4",
+		"reg_data": [
+			{"name": "EPRX10PhaseSelect", "value": 0, "size": 4},
+			{"name": "EPRX10Invert", "value": 1, "size": 1},
+			{"name": "EPRX10AcBias", "value": 0, "size": 1},
+			{"name": "EPRX10Term", "value": 1, "size": 1},
+			{"name": "EPRX10Eq1", "value": 0, "size": 1}
+			],
+		"reg_wr": "wr"
+	},
+	"EPRX20ChnCntr_lpGBT1":
+	{
+		"reg": "EPRX20ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0d8",
+		"reg_addr": "0x0d8",
+		"reg_data": [
+			{"name": "EPRX20PhaseSelect", "value": 0, "size": 4},
+			{"name": "EPRX20Invert", "value": 1, "size": 1},
+			{"name": "EPRX20AcBias", "value": 0, "size": 1},
+			{"name": "EPRX20Term", "value": 1, "size": 1},
+			{"name": "EPRX20Eq1", "value": 0, "size": 1}
+			],
+		"reg_wr": "wr"
+	},
+	"EPRX30ChnCntr_lpGBT1":
+	{
+		"reg": "EPRX30ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0dc",
+		"reg_addr": "0x0dc",
+		"reg_data": [
+			{"name": "EPRX30PhaseSelect", "value": 0, "size": 4},
+			{"name": "EPRX30Invert", "value": 1, "size": 1},
+			{"name": "EPRX30AcBias", "value": 0, "size": 1},
+			{"name": "EPRX30Term", "value": 1, "size": 1},
+			{"name": "EPRX30Eq1", "value": 0, "size": 1}
+			],
+		"reg_wr": "wr"
+	},
+	"EPRX40ChnCntr_lpGBT1":
+	{
+		"reg": "EPRX40ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0e0",
+		"reg_addr": "0x0e0",
+		"reg_data": [
+			{"name": "EPRX40PhaseSelect", "value": 0, "size": 4},
+			{"name": "EPRX40Invert", "value": 0, "size": 1},
+			{"name": "EPRX40AcBias", "value": 0, "size": 1},
+			{"name": "EPRX40Term", "value": 1, "size": 1},
+			{"name": "EPRX40Eq1", "value": 0, "size": 1}
+			],
+		"reg_wr": "wr"
+	},
+	"EPRX50ChnCntr_lpGBT1":
+	{
+		"reg": "EPRX50ChnCntr",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0e4",
+		"reg_addr": "0x0e4",
+		"reg_data": [
+			{"name": "EPRX50PhaseSelect", "value": 0, "size": 4},
+			{"name": "EPRX50Invert", "value": 0, "size": 1},
+			{"name": "EPRX50AcBias", "value": 0, "size": 1},
+			{"name": "EPRX50Term", "value": 1, "size": 1},
+			{"name": "EPRX50Eq1", "value": 0, "size": 1}
+			],
+		"reg_wr": "wr"
+	},
+		"PowerUp2_lpGBT1":
+	{
+		"reg": "PowerUp2",
+		"dev": "lpGBT1_master",
+		"bank_addr": "0x0f8",
+		"reg_addr": "0x0fb",
+		"reg_data": [
+			{"name": "NC", "value" : 0, "size": 5},			
+			{"name": "dllConfigDone", "value": 1, "size": 1},
+			{"name": "pllConfigDone", "value": 1, "size": 1}],
+		"reg_wr": "wr"
+	}
+}

@@ -1,0 +1,163 @@
+
+{
+	"USERID0_lpGBT1":
+	{
+		"reg": "USERID0",
+		"dev": "V3_lpGBT1_master",
+		"bank_addr": "0x004",
+		"reg_addr": "0x004",
+		"reg_data": [
+			{"name": "UserID", "value" : 2, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID1_lpGBT1":
+	{
+		"reg": "USERID1",
+		"dev": "V3_lpGBT1_master",
+		"bank_addr": "0x004",
+		"reg_addr": "0x005",
+		"reg_data": [
+			{"name": "UserID", "value" : 4, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID2_lpGBT1":
+	{
+		"reg": "USERID2",
+		"dev": "V3_lpGBT1_master",
+		"bank_addr": "0x004",
+		"reg_addr": "0x006",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID3_lpGBT1":
+	{
+		"reg": "USERID3",
+		"dev": "V3_lpGBT1_master",
+		"bank_addr": "0x004",
+		"reg_addr": "0x007",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID0_lpGBT2":
+	{
+		"reg": "USERID0",
+		"dev": "V3_lpGBT2_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x004",
+		"reg_data": [
+			{"name": "UserID", "value" : 2, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID1_lpGBT2":
+	{
+		"reg": "USERID1",
+		"dev": "V3_lpGBT2_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x005",
+		"reg_data": [
+			{"name": "UserID", "value" : 4, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID2_lpGBT2":
+	{
+		"reg": "USERID2",
+		"dev": "V3_lpGBT2_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x006",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID3_lpGBT2":
+	{
+		"reg": "USERID3",
+		"dev": "V3_lpGBT2_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x007",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID0_lpGBT3":
+	{
+		"reg": "USERID0",
+		"dev": "V3_lpGBT3_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x004",
+		"reg_data": [
+			{"name": "UserID", "value" : 2, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID1_lpGBT3":
+	{
+		"reg": "USERID1",
+		"dev": "V3_lpGBT3_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x005",
+		"reg_data": [
+			{"name": "UserID", "value" : 4, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID2_lpGBT3":
+	{
+		"reg": "USERID2",
+		"dev": "V3_lpGBT3_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x006",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID3_lpGBT3":
+	{
+		"reg": "USERID3",
+		"dev": "V3_lpGBT3_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x007",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID0_lpGBT4":
+	{
+		"reg": "USERID0",
+		"dev": "V3_lpGBT4_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x004",
+		"reg_data": [
+			{"name": "UserID", "value" : 2, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID1_lpGBT4":
+	{
+		"reg": "USERID1",
+		"dev": "V3_lpGBT4_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x005",
+		"reg_data": [
+			{"name": "UserID", "value" : 4, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID2_lpGBT4":
+	{
+		"reg": "USERID2",
+		"dev": "V3_lpGBT4_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x006",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	},
+	"USERID3_lpGBT4":
+	{
+		"reg": "USERID3",
+		"dev": "V3_lpGBT4_slave",
+		"bank_addr": "0x004",
+		"reg_addr": "0x007",
+		"reg_data": [
+			{"name": "UserID", "value" : 0, "size": 8}],
+		"reg_wr": "wr"
+	}
+}
